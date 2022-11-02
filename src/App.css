@@ -1,0 +1,78 @@
+hr.hl1 {
+  border-top: 0.5px solid lightcoral;
+}
+
+hr.last {
+  border-top: 1px solid lightskyblue;
+}
+
+.btn {
+  align-items: center;
+}
+
+.slide {
+  align-items: center;
+  border-radius: 10px;
+
+} 
+
+.box {
+  margin-top: 30px;
+  margin-left: 240px;
+  width: 800px;
+  height: 600px;
+}
+
+.try img {
+  width: 60%;
+  height: 30rem;
+  padding: auto;
+  border-radius: 2rem
+}
+
+hr.first {
+  border-top: 1px solid lightsteelblue;
+}
+
+.try2 img {
+  border-radius: 20px
+}
+
+.containerloginform{
+  /* display: flex; */
+  margin-left: -350px;
+  justify-content: center;
+  overflow-y:hidden;
+  overflow-x: hidden;
+  background-color: rgb(210, 237, 241);
+  padding-bottom: 215px;
+}
+
+.profileH{
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+  font-family:'Courier New', Courier, monospace;
+  font: optional;
+  color: black;
+}
+
+.profile{
+  background-color: azure;
+  margin: 60px;
+  margin-bottom: 0px;
+  padding: 20px;
+
+}
+
+.mainprofile{
+  background-color: rgb(210, 237, 241);
+  padding-bottom: 30px;
+}
+
+.mainprofilel{
+  background-color: rgb(210, 237, 241);
+  padding-bottom: 120px;
+}
+

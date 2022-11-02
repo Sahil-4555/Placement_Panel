@@ -1,0 +1,72 @@
+body {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+}
+
+table {
+  margin-left: 1000px;
+  margin-right: 1000px;
+  width: 100%;
+} 
+
+thead th {
+  text-align: center;
+}
+
+thead td {
+  text-align: center;
+  border: 1px solid black; 
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+thead button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+
+thead button.ascending::after {
+  content: '👇';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+thead button.descending::after {
+  content: '☝️';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+tbody td {
+  padding: 0.5em;
+}
+
+tbody tr:hover {
+  background-color: #eee;
+}
+
+.admin{
+  background-color: rgb(210, 237, 241);
+}
+
+.header{
+  text-align: center;
+}
+
+.container123{
+  margin-left: 280px;
+  padding-bottom: 40px;
+}
+
+.id{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.hsc{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
